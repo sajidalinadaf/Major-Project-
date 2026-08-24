@@ -1,0 +1,41 @@
+name: omnishelf_mobile
+description: "OmniShelf - B2B Smart Expiry & Inventory Management Platform"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI / Icons
+  cupertino_icons: ^1.0.8
+
+  # Networking
+  http: ^1.2.2
+
+  # State management
+  provider: ^6.1.2
+
+  # Internationalisation & date formatting
+  intl: ^0.19.0
+
+  # Camera & image picking (for OCR scan)
+  camera: ^0.11.0+2
+  image_picker: ^1.1.2
+
+  # Shared preferences (offline cache)
+  shared_preferences: ^2.3.2
+
+  # UUID generation for local IDs
+  uuid: ^4.4.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true

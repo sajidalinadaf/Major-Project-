@@ -1,0 +1,5 @@
+﻿# OmniShelf Lambda dependencies
+# boto3 and botocore are pre-installed in the AWS Lambda Python 3.11 runtime.
+# They are listed here for local development / SAM local use.
+boto3>=1.34.0
+botocore>=1.34.0
